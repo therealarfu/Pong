@@ -1,0 +1,40 @@
+@font-face {
+  font-family: 'bit5x3';
+  src: url('fonts/bit5x3.woff') format('woff'),
+       url('fonts/bit5x3.ttf') format('truetype');
+}
+
+body {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.Points {
+  color: white;
+  font-family: 'bit5x3', sans-serif;
+  font-size:xx-large;
+}
+
+#playerp {
+  position: absolute;
+  right: calc(50% + 20px);
+  top: calc(50% - 50px);
+  transform: translateY(-50%);
+}
+
+#aip {
+  position: absolute;
+  left: calc(50% + 20px);
+  top: calc(50% - 50px);
+  transform: translateY(-50%);
+}
+
+canvas {
+  border: solid 1px white;
+  display: block;
+  margin: 0 auto;
+}
